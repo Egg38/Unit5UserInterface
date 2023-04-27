@@ -13,7 +13,7 @@ public class Target : MonoBehaviour
     private float maxTorque = 10;
     private float xRange = 4;
     private float ySpawnPos = -2;
-
+    public int lives = 3;
     public ParticleSystem explosionParticle;
     public int pointValue;
     // Start is called before the first frame update
